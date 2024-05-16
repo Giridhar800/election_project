@@ -8,9 +8,9 @@ This project is aimed at simulating an election process, offering functionalitie
 - Result Analysis: Analyze and visualize election results.
 ## Installation
 1.Clone the repository:
-- git clone <br>
+   - git clone https://github.com/Giridhar800/election_project.git <br><br>
 2.Navigate to the project directory:
-- cd election-project <br>
+   - cd election-project <br><br>
 3.Install dependencies:
   - npm install
 ## Contributing

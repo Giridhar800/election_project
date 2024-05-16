@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Election Eve Vote</h1>
+        <nav>
+            <ul>
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li><a href="{% url 'candidate_list' %}">View Candidates</a></li>
+                <li><a href="{% url 'vote' candidate_id=1 %}">Vote Now</a></li>
+                <li><a href="{% url 'login' %}">Login</a></li>
+                <li><a href="{% url 'register' %}">Register</a></li>
+
+                <!-- Add more navigation links as needed -->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>About Election Eve Vote</h2>
+            <p>Election Eve Vote is a platform where users can view candidates running for election and cast their votes securely.</p>
+        </section>
+
+        <section>
+            <h2>Latest Updates</h2>
+            <ul>
+                <li>Stay tuned for exciting updates!</li>
+                <!-- Add more updates as needed -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Election Eve Vote. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
